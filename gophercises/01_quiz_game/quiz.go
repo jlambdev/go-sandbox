@@ -7,7 +7,36 @@ import (
 	"os"
 	"strconv"
 	"strings"
+	"time"
 )
+
+// Useful for type hints & refactoring, e.g. we may want to read from JSON in the future
+type problem struct {
+    q string
+    a string
+}
+
+func exit(msg string) {
+    fmt.Println(msg)
+    os.Exit(1)
+}
+
+func parseLines(lines [][]string) []problem {
+    ret := make([]problem, len(lines)) // we know how big the value needs to be (number of rows)
+    for i, line := range lines {
+        ret[i] = problem{
+            q: line[0],
+            a: strings.TrimSpace(line[1]),
+        }
+    }
+    return ret
+}
+
+// TODO: finish implementing me, see https://gobyexample.com/goroutines
+func timer(seconds int32, score int, numQuestions int) {
+    time.Sleep(time.Duration(seconds) * time.Second)
+    exit(fmt.Sprintf("The timer ran out! You scored %d out of %d questions correctly.\n", score, numQuestions))
+}
 
 /*
    Part 2 requirements:
@@ -41,7 +70,7 @@ func main() {
     problems := parseLines(records)
 
     for i, p := range problems {
-        answer, err := strconv.ParseInt(p.a, 0, 64) // https://gobyexample.com/number-parsing
+        answer, err := strconv.ParseInt(p.a, 0, 32) // https://gobyexample.com/number-parsing
         if err != nil {
             exit(fmt.Sprintf("Error parsing answer '%s' from record\n", p.a))
         }
@@ -54,7 +83,7 @@ func main() {
             exit(fmt.Sprintf("Error reading input '%s'\n", userInput))
         }
 
-        i, err := strconv.ParseInt(userInput, 0, 64)
+        i, err := strconv.ParseInt(userInput, 0, 32)
         if err != nil {
             exit("Error parsing integer from user input")
         }
@@ -67,27 +96,5 @@ func main() {
         }
     }
 
-    fmt.Printf("Game over! You scored %d out of %d questions correctly.\n", score, len(problems))
-}
-
-func parseLines(lines [][]string) []problem {
-    ret := make([]problem, len(lines)) // we know how big the value needs to be (number of rows)
-    for i, line := range lines {
-        ret[i] = problem{
-            q: line[0],
-            a: strings.TrimSpace(line[1]),
-        }
-    }
-    return ret
-}
-
-// Useful for type hints & refactoring, e.g. we may want to read from JSON in the future
-type problem struct {
-    q string
-    a string
-}
-
-func exit(msg string) {
-    fmt.Println(msg)
-    os.Exit(1)
+    fmt.Printf("You scored %d out of %d questions correctly.\n", score, len(problems))
 }

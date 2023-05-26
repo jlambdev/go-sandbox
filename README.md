@@ -1,5 +1,9 @@
 # Learning Go
 
+Up to Gophercise Ex. 1, part 2
+
+Consider looking into auto-formatting (like Prettier?)
+
 ## Resources
 
 -   [Go by Example](https://gobyexample.com/): hands-on introduction to Go using annotated example programs.
