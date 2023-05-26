@@ -1,0 +1,7 @@
+# Used to ignore binary output from go programs
+**/*
+
+# Files to include
+!**/*.go
+!**/*.csv
+!.gitignore
