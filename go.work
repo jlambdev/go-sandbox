@@ -8,6 +8,8 @@ use (
 	./exercism/go/booking-up-for-beauty
 	./exercism/go/card-tricks
 	./exercism/go/cars-assemble
+	./exercism/go/chessboard
+	./exercism/go/gross-store
 	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
 	./exercism/go/lasagna-master
