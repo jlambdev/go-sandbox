@@ -3,10 +3,13 @@ go 1.21.3
 use (
 	./exercism/go/animal-magic
 	./exercism/go/annalyns-infiltration
+	./exercism/go/bird-watcher
 	./exercism/go/blackjack
 	./exercism/go/card-tricks
 	./exercism/go/cars-assemble
+	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
+	./exercism/go/lasagna-master
 	./exercism/go/need-for-speed
 	./exercism/go/party-robot
 	./exercism/go/vehicle-purchase
