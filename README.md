@@ -6,8 +6,8 @@ Consider looking into auto-formatting (like Prettier?)
 
 ## Resources
 
--   [Go by Example](https://gobyexample.com/): hands-on introduction to Go using annotated example programs.
--   [Gophercises](https://gophercises.com/): course where you build 20 mini-applications
+- [Go by Example](https://gobyexample.com/): hands-on introduction to Go using annotated example programs.
+- [Gophercises](https://gophercises.com/): course where you build 20 mini-applications
 
 ## Run Programs
 
@@ -17,3 +17,5 @@ Consider looking into auto-formatting (like Prettier?)
 ## Type Hints
 
 Install the Go VSCode extension
+
+## Exercism
