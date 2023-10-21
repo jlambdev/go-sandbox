@@ -4,5 +4,8 @@ use (
 	./exercism/go/annalyns-infiltration
 	./exercism/go/cars-assemble
 	./exercism/go/lasagna
+	./exercism/go/party-robot
+	./exercism/go/vehicle-purchase
 	./exercism/go/weather-forecast
+	./exercism/go/welcome-to-tech-palace
 )
