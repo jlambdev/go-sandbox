@@ -9,6 +9,7 @@ use (
 	./exercism/go/card-tricks
 	./exercism/go/cars-assemble
 	./exercism/go/chessboard
+	./exercism/go/election-day
 	./exercism/go/gross-store
 	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
