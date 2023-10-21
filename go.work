@@ -2,6 +2,7 @@ go 1.21.3
 
 use (
 	./exercism/go/annalyns-infiltration
+	./exercism/go/blackjack
 	./exercism/go/card-tricks
 	./exercism/go/cars-assemble
 	./exercism/go/lasagna
