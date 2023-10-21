@@ -1,6 +1,7 @@
 go 1.21.3
 
 use (
+	./exercism/go/annalyns-infiltration
 	./exercism/go/cars-assemble
 	./exercism/go/lasagna
 	./exercism/go/weather-forecast
