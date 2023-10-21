@@ -1,8 +1,4 @@
-# Learning Go
-
-Up to Gophercise Ex. 1, part 2
-
-Consider looking into auto-formatting (like Prettier?)
+# Go Sandbox
 
 ## Resources
 
@@ -18,4 +14,14 @@ Consider looking into auto-formatting (like Prettier?)
 
 Install the Go VSCode extension
 
-## Exercism
+## Auto formatting
+
+Add this to settings.json
+
+```json
+"[go]": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "golang.go"
+},
+"go.formatTool": "goimports"
+```
