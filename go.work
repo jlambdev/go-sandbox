@@ -1,6 +1,7 @@
 go 1.21.3
 
 use (
+	./exercism/go/airport-robot
 	./exercism/go/animal-magic
 	./exercism/go/annalyns-infiltration
 	./exercism/go/bird-watcher
