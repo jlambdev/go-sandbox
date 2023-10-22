@@ -22,6 +22,7 @@ use (
 	./exercism/go/need-for-speed
 	./exercism/go/parsing-log-files
 	./exercism/go/party-robot
+	./exercism/go/sorting-room
 	./exercism/go/vehicle-purchase
 	./exercism/go/weather-forecast
 	./exercism/go/welcome-to-tech-palace
