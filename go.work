@@ -10,11 +10,14 @@ use (
 	./exercism/go/cars-assemble
 	./exercism/go/chessboard
 	./exercism/go/election-day
+	./exercism/go/elons-toys
 	./exercism/go/gross-store
 	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
 	./exercism/go/lasagna-master
+	./exercism/go/logs-logs-logs
 	./exercism/go/need-for-speed
+	./exercism/go/parsing-log-files
 	./exercism/go/party-robot
 	./exercism/go/vehicle-purchase
 	./exercism/go/weather-forecast
