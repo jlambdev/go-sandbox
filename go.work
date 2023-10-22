@@ -18,6 +18,7 @@ use (
 	./exercism/go/lasagna
 	./exercism/go/lasagna-master
 	./exercism/go/logs-logs-logs
+	./exercism/go/meteorology
 	./exercism/go/need-for-speed
 	./exercism/go/parsing-log-files
 	./exercism/go/party-robot
