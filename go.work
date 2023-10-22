@@ -13,6 +13,7 @@ use (
 	./exercism/go/chessboard
 	./exercism/go/election-day
 	./exercism/go/elons-toys
+	./exercism/go/expenses
 	./exercism/go/gross-store
 	./exercism/go/interest-is-interesting
 	./exercism/go/lasagna
@@ -23,6 +24,7 @@ use (
 	./exercism/go/parsing-log-files
 	./exercism/go/party-robot
 	./exercism/go/sorting-room
+	./exercism/go/the-farm
 	./exercism/go/vehicle-purchase
 	./exercism/go/weather-forecast
 	./exercism/go/welcome-to-tech-palace
